@@ -69,6 +69,12 @@ iframe {
   color: #000;
 }
 
+.logo {
+  margin-top: 5px;
+  font-size: 32px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
 @media (max-width: 1024px) {
   .video-wrapper {
       width: 100%;
@@ -79,6 +85,10 @@ iframe {
 @media (max-width: 480px) {
   .video-block_thin {
       width: 100%;
+  }
+
+  .video-block_thin:nth-child(2n) {
+    margin-right: 0;
   }
 
   .video-block_main {
