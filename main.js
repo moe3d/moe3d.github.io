@@ -1,5 +1,6 @@
 ; (function () {
   var isMobileWidth = window.innerWidth < 800;
+  isMobileWidth = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
 
   var container = document.querySelector('.video-wrapper');
   var socials = document.querySelector('.socials-block');
