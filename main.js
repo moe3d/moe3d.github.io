@@ -1,6 +1,5 @@
 ; (function () {
-  var isMobileWidth = window.innerWidth < 800;
-  isMobileWidth = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
+  var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
 
   var container = document.querySelector('.video-wrapper');
   var socials = document.querySelector('.socials-block');
@@ -41,14 +40,13 @@
 
   videos.forEach(video => {
     var videoBox = document.createElement('div');
-    videoBox.classList.add('video-block_thin');
+    videoBox.classList.add(isMobile ? 'video-block_main' : 'video-block_thin' );
     videoBox.innerHTML = `
     <div class="iframe-wrapper">
-      <iframe src="https://player.vimeo.com/video/${video.id}?title=0&byline=0&portrait=0&sidedock=0&loop=1&autoplay=${isMobileWidth ? 0 : video.autoplay}&autopause=0&muted=1" frameborder="0" allow=autoplay webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <iframe src="https://player.vimeo.com/video/${video.id}?title=0&byline=0&portrait=0&sidedock=0&loop=1&autoplay=${isMobile ? 0 : video.autoplay}&autopause=0&muted=1" frameborder="0" allow=autoplay webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   `;
     
-	//container.appendChild(videoBox);
 	container.insertBefore(videoBox,socials);
   });
 })();
