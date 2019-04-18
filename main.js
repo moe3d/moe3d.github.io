@@ -1,5 +1,5 @@
 ; (function () {
-  var isMobileWidth = window.innerWidth < 400;
+  var isMobileWidth = window.innerWidth < 800;
 
   var container = document.querySelector('.video-wrapper');
   var socials = document.querySelector('.socials-block');
