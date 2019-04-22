@@ -35,7 +35,9 @@
     { id: 330602506, title: null, description: null, autoplay: 1 },
     { id: 330602550, title: null, description: null, autoplay: 1 },
     { id: 330602408, title: null, description: null, autoplay: 1 },
-    { id: 330602436, title: null, description: null, autoplay: 1 }
+    { id: 330602436, title: null, description: null, autoplay: 1 },
+    { id: 331835610, title: "Lego 02", description: null, autoplay: 1 },
+    { id: 331835648, title: "Lego 01", description: null, autoplay: 1 },
   ].reverse();
 
   videos.forEach(video => {
