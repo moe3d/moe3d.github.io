@@ -25,7 +25,6 @@ a:hover {
 
 .video-wrapper {
   width: 50%;
-  max-width: 800px;
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
