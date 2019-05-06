@@ -42,6 +42,8 @@
     { id: 331835648, title: "Lego 1", description: 'Shoot,Track<br>Procedural Lego Converter Asset<br>Render,Comp', autoplay: 1 },
     { id: 332442095, title: "Dance: Smoke", description: 'Match Move<br>Smoke Sim<br>Render,Comp<br><br><a href="https://youtu.be/JB7YIrhPefQ" target="_blank">Source Footage</a>', autoplay: 1 },
     { id: 332442056, title: "Dance: Sparks", description: 'Match Move<br>Magic Dust Fx<br>Render,Comp<br><br><a href="https://youtu.be/JB7YIrhPefQ" target="_blank">Source Footage</a>', autoplay: 1 },
+    { id: 334486129, title: "Pink Crack", description: 'Rbd Simulation', autoplay: 1 },
+    { id: 334486149, title: "Geo to Hair", description: 'Procedural geometry to hair conversion asset<br>watch in 1080p to see the difference', autoplay: 1 },
 	
   ].reverse();
 
